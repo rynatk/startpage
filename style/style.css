@@ -1,18 +1,17 @@
 
 body {
-	background: #252525 url(images/bg-noise.png) repeat;    /* Page background */
-	color: #676767;											/* Font color */
+	background: url(images/1486189718142.jpg) no-repeat center center fixed;    /* Page background */
+	color: #FF790B;											/* Font color */
 	padding: 150px ;							             	/* Padding between link blocks and edge */
 	font-family: 'Fira Code', Calibri;                      	/* Font */
 	text-shadow: rgba(0,0,0,0.6) 1px 1px 0;                 /* Text Shadow */
-
+  background-size: cover;
 }
 
-
 a {
-	color: #676767;											/* Link Color */
+	color: #FF790B;											/* Link Color */
 	text-shadow: rgba(0,0,0,0.4) 1px 1px 0;                 /* Text Shadow */
-	font-size: 11px;										/* Link Size */
+	font-size: 16px;										/* Link Size */
 	text-decoration: none;									/* Remove underlines */
 	border-bottom: 1px solid rgba(0,0,0,0.0);
 	-o-transition: all 0.2s ease-in-out;
@@ -47,7 +46,7 @@ a:hover {
 
 h1 {
 	margin: 0px;
-	font-size: 14px;										/* Title size */
+	font-size: 16px;										/* Title size */
 	font-variant: small-caps;
 	cursor: pointer;
 	-o-transition: all 0.5s ease-in-out;
